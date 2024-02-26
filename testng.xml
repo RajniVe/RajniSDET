@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="AutifyTests">
+        <groups>
+            <run>
+                <include name="newWindow"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Program5TestNgProgram"/>
+        </classes>
+    </test>
+</suite>
+
+
